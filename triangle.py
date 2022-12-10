@@ -24,7 +24,7 @@ class Ui_triangle_1(object):
             area = (s1 * s2)/2
             self.label_4.setText(f"Total {area:.2f}")
         except:
-            self.label_4.setText(" Enter properly radius")
+            self.label_4.setText(" Enter numeric value")
     def setupUi(self, triangle_1):
         triangle_1.setObjectName("triangle_1")
         triangle_1.resize(245, 268)

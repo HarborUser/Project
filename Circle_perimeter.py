@@ -21,7 +21,7 @@ class Ui_C1(object):
             area = 2 *pi * (radius)
             self.label_3.setText(f"Total {area:.2f}")
         except:
-            self.label_3.setText(" Enter properly radius")
+            self.label_3.setText(" Enter numeric value")
 
 
     def setupUi(self, C1):

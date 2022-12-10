@@ -20,7 +20,7 @@ class Ui_Circle(object):
             area = pi * (radius)**2
             self.label_summary.setText(f"Total {area:.2f}")
         except:
-            self.label_summary.setText(" Enter properly radius")
+            self.label_summary.setText(" Enter numeric value")
 
 
     def setupUi(self, Circle):

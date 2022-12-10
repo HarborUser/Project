@@ -23,7 +23,7 @@ class Ui_RECT(object):
             area = length * width
             self.label_summary.setText(f"Total {area:.2f}")
         except:
-            self.label_summary.setText(" Enter properly radius")
+            self.label_summary.setText(" Enter numeric values")
     def setupUi(self, RECT):
         RECT.setObjectName("RECT")
         RECT.resize(246, 256)

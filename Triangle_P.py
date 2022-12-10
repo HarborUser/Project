@@ -24,7 +24,7 @@ class Ui_TC(object):
             area = s1 + s2 + s3
             self.label_5.setText(f"Total {area:.2f}")
         except:
-            self.label_5.setText(" Enter properly radius")
+            self.label_5.setText(" Enter numeric value")
     def setupUi(self, TC):
         TC.setObjectName("TC")
         TC.resize(260, 306)
