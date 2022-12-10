@@ -45,7 +45,7 @@ class Ui_triangle_1(object):
         self.label_3 = QtWidgets.QLabel(self.centralwidget)
         self.label_3.setGeometry(QtCore.QRect(20, 110, 35, 10))
         self.label_3.setObjectName("label_3")
-        self.pushButton = QtWidgets.QPushButton(self.centralwidget)
+        self.pushButton = QtWidgets.QPushButton(self.centralwidget,clicked=lambda: self.submit())
         self.pushButton.setGeometry(QtCore.QRect(80, 210, 56, 17))
         self.pushButton.setObjectName("pushButton")
         self.label_4 = QtWidgets.QLabel(self.centralwidget)

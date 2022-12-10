@@ -42,7 +42,7 @@ class Ui_C1(object):
         self.label_3.setGeometry(QtCore.QRect(90, 160, 61, 31))
         self.label_3.setText("")
         self.label_3.setObjectName("label_3")
-        self.pushButton = QtWidgets.QPushButton(self.centralwidget)
+        self.pushButton = QtWidgets.QPushButton(self.centralwidget,clicked=lambda: self.submit())
         self.pushButton.setGeometry(QtCore.QRect(100, 230, 56, 17))
         self.pushButton.setObjectName("pushButton")
         C1.setCentralWidget(self.centralwidget)

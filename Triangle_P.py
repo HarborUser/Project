@@ -55,7 +55,7 @@ class Ui_TC(object):
         self.label_5.setGeometry(QtCore.QRect(80, 190, 51, 31))
         self.label_5.setText("")
         self.label_5.setObjectName("label_5")
-        self.pushButton = QtWidgets.QPushButton(self.centralwidget)
+        self.pushButton = QtWidgets.QPushButton(self.centralwidget,clicked= lambda: self.button())
         self.pushButton.setGeometry(QtCore.QRect(80, 250, 56, 17))
         self.pushButton.setObjectName("pushButton")
         TC.setCentralWidget(self.centralwidget)
@@ -76,7 +76,7 @@ class Ui_TC(object):
         self.label.setText(_translate("TC", "Side 1"))
         self.label_2.setText(_translate("TC", "Side 2"))
         self.label_3.setText(_translate("TC", "Side 3"))
-        self.label_4.setText(_translate("TC", "Triangle Perimeter"))
+        self.label_4.setText(_translate("TC", "Triangle Perimeter   "))
         self.pushButton.setText(_translate("TC", "Submit"))
 
 

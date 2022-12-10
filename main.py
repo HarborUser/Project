@@ -1,4 +1,4 @@
-from project_finder import *
+
 from circle_finder import *
 
 from master import *
