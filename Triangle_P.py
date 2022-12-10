@@ -16,7 +16,7 @@ class Ui_TC(object):
         try:
             side_test = self.lineEdit.text()
             side2_test = self.lineEdit_2.text()
-            side3_test = self.lineEdit_3.test()
+            side3_test = self.lineEdit_3.text()
             s1 = float(side_test)
             s2 = float(side2_test)
             s3 = float(side3_test)
